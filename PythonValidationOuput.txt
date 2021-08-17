@@ -1,3 +1,0 @@
-The output of the python embedding layer with input 3 is: 
-
-[[3.0, 3.0, 3.0, 3.0, 3.0, 3.0, 3.0, 3.0]]
