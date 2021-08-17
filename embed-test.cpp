@@ -40,8 +40,9 @@ int main() {
 			printf("%f ", res[i]);
 		}
 
-		// write result to text file
+		// THIS SECTION SHOULD BE REMOVED FOR HLS SYNTHESIS
 
+		// write result to text file
 		using namespace std;
 		ofstream myfile ("cppValidationOutput.txt");
 		if (myfile.is_open()) {
