@@ -45,6 +45,8 @@ int main() {
 		using namespace std;
 		ofstream myfile ("cppValidationOutput.txt");
 		if (myfile.is_open()) {
+			myfile << "The output of the c++ embedding layer with input 3 is:\n";
+			myfile << "\n";
 			for (int i = 0; i < n_out; i++) {
 				myfile << res[i];
 				myfile << " ";
