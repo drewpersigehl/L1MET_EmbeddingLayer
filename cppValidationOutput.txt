@@ -1,1 +1,2 @@
+The output of the python embedding layer with input 3 is:
 3 3 3 3 3 3 3 3 
